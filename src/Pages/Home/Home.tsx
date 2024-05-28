@@ -72,7 +72,7 @@ const Home = () => {
             <button
               className={`font-semibold ${
                 isUpperCaseClicked ? "text-black" : "text-[#AEAEAE]"
-              } text-sm lg:text-base`}
+              } text-sm lg:text-base hover:text-black transition duration-400 ease-in-out `}
               onClick={handleUppercase}
             >
               AA
@@ -80,7 +80,7 @@ const Home = () => {
             <button
               className={`font-semibold ${
                 isLowerCaseClicked ? "text-black" : "text-[#AEAEAE]"
-              } text-sm lg:text-base`}
+              } text-sm lg:text-base hover:text-black transition duration-400 ease-in-out `}
               onClick={handleLowercase}
             >
               aa
@@ -88,7 +88,7 @@ const Home = () => {
             <button
               className={`font-semibold ${
                 isCapitalizedClicked ? "text-black" : "text-[#AEAEAE]"
-              } text-sm lg:text-base`}
+              } text-sm lg:text-base hover:text-black transition duration-400 ease-in-out `}
               onClick={handleCapitalize}
             >
               Aa
