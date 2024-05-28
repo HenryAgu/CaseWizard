@@ -55,7 +55,7 @@ const Home = () => {
     }
   };
   return (
-    <div className="flex justify-center items-center bg-white h-screen w-screen ">
+    <div className="flex justify-center items-center bg-white mt-10 lg:h-screen w-screen ">
       <Toaster />
       <div className="w-[90%] lg:w-[38%]">
         <p className="text-center lg:text-left font-bold text-black text-2xl lg:text-4xl leading-10 mb-2 font-open-sans">
