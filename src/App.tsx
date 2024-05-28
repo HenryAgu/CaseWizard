@@ -1,10 +1,11 @@
-function App() {
+import Home from "./Pages/Home/Home";
 
+function App() {
   return (
-<div>
-  <h1 className="text-3xl font-bold underline">Hello</h1>
-</div>
-  )
+    <div className="overflow-x-hidden">
+      <Home />
+    </div>
+  );
 }
 
-export default App
+export default App;
